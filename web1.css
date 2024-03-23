@@ -1,0 +1,122 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background: url('https://media.istockphoto.com/id/1279902517/photo/be-as-strong-as-you-were-born-to-be.jpg?s=612x612&w=0&k=20&c=VL1HmKItYHiZkUguh-Fsa1W1qccUuWoUQBNLzHqcbns=');
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    color: white;
+    height: 500px;
+}
+
+.left 
+{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+.mid
+{
+    /* border: 2px solid rgb(101, 164, 38); */
+    display: block;
+    width: 33%;
+    margin: 16px auto;
+}
+.right
+{
+    /* border: 2px solid rgb(234, 255, 0); */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+.navbar
+{
+    display: inline-block;
+    padding: 3px 3px;
+}
+.navbar li
+{
+    display: inline-block;
+}
+.navbar li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+.navbar li a:hover , .navbar li a.active
+{
+    text-decoration: underline;
+    color: rgb(210, 228, 228);
+}
+
+.left img
+{
+    width: 40px;
+    display: block;
+    margin: auto;
+}
+.left div
+{
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.btn
+{
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 6px ;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn:hover
+{
+    background-color: rgb(233, 226, 226);
+    color: black;
+}
+
+.cont
+{
+    border: 2px solid white;
+    width: 38%;
+    margin: 120px 70px ;
+    padding: 50px 30px;
+    border-radius: 10px;
+}
+
+.forms input
+{
+    text-align: center;
+    display: block;
+    width: 200px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 3px auto;
+    border-radius: 5px;
+}
+.cont h1
+{
+    text-align: center;
+}
+.cont button
+{
+    display: block;
+    width: 33%;
+    margin: 10px auto;
+
+}
+
+.footer
+{
+    display: inline-block;
+    bottom: 40px;
+}
